@@ -3,21 +3,21 @@ import  React, {useState, createContext} from "react"
 export const ProductContext = createContext()
 
 //function to hold provider info/fetch call
-export const LocationProvider = (props) => {
+export const ProductProvider = (props) => {
     const [products, setProducts] = useState([])
 
 
-    const getLocations = () => {
-        return fetch ("http://localhost:8088/locations")
+    const getProducts = () => {
+        return fetch ("http://localhost:8088/products")
         .then(response => response.json())
-        .then(setLocations)
+        .then(setProducts)
     }
 return (
-    <LocationContext.Provider value ={{
-        locations, getLocations
+    <ProductContext.Provider value ={{
+        products, getProducts
     }}>
         {props.children}
-    </LocationContext.Provider>
+    </ProductContext.Provider>
 )
 
 }
