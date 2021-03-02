@@ -1,0 +1,14 @@
+{
+    "products":[],
+    "locations": [
+        {"address": "246 long way",
+        "squareFeet": 20,
+        "handicapAccess": true,
+        "id": 1
+        }
+    ],
+    "employees": [],
+    "productTypes":[],
+    "customers":[]
+
+}
