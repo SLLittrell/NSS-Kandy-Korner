@@ -1,14 +1,38 @@
 {
-    "products":[],
+    "products":[
+        {
+            "name": "Kisses",
+            "productTypeId": "2",
+            "price": "$.50"
+        }
+    ],
     "locations": [
-        {"address": "246 long way",
+        {
+        "address": "246 long way",
         "squareFeet": 20,
         "handicapAccess": true,
         "id": 1
         }
     ],
     "employees": [],
-    "productTypes":[],
+    "productTypes":[
+        {
+        "id": 1,
+        "type": "Hard Candy"
+        },
+        {
+        "id": 2,
+        "type": "Gum"
+        },
+        {
+        "id": 2,
+        "type": "Chocolate"
+        },
+        {
+        "id": 4,
+        "type": "Sodas"
+        }
+    ],
     "customers":[]
 
 }
