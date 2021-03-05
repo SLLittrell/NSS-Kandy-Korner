@@ -3,18 +3,43 @@
         {
             "name": "Kisses",
             "productTypeId": 3,
-            "price": "$.50"
+            "price": "$.50",
+            "id": 1
         }
     ],
     "locations": [
         {
+        "name": "Georges Square",
         "address": "246 long way",
         "squareFeet": 20,
         "handicapAccess": true,
         "id": 1
+        },
+        {
+        "name": "Rembrant Circle",
+        "address": "156 short way",
+        "squareFeet": 15,
+        "handicapAccess": false,
+        "id": 2
+        },
+        {
+        "name": "Park Place",
+        "address": "220 direct way",
+        "squareFeet": 30,
+        "handicapAccess": true,
+        "id": 3
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+        "id": 1,
+        "name": "Sue",
+        "locationId": 2,
+        "manager": true,
+        "fullTime": true,
+        "hourlyRate": 15
+        }
+    ],
     "productTypes":[
         {
         "id": 1,
