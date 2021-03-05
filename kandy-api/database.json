@@ -1,95 +1,95 @@
 {
-    "products": [
-      {
-        "name": "Kisses",
-        "productTypeId": 3,
-        "price": "$.50",
-        "id": 1
-      }
-    ],
-    "locations": [
-      {
-        "name": "Georges Square",
-        "address": "246 long way",
-        "squareFeet": 20,
-        "handicapAccess": true,
-        "id": 1
-      },
-      {
-        "name": "Rembrant Circle",
-        "address": "156 short way",
-        "squareFeet": 15,
-        "handicapAccess": false,
-        "id": 2
-      },
-      {
-        "name": "Park Place",
-        "address": "220 direct way",
-        "squareFeet": 30,
-        "handicapAccess": true,
-        "id": 3
-      }
-    ],
-    "employees": [
-      {
-        "id": 1,
-        "name": "Sue",
-        "locationId": 2,
-        "manager": true,
-        "fullTime": true,
-        "hourlyRate": 15
-      },
-      {
-        "name": "bo",
-        "locationId": "2",
-        "manager": "true",
-        "fullTime": "true",
-        "hourlyRate": "20",
-        "id": 2
-      },
-      {
-        "name": "Ariel",
-        "locationId": "1",
-        "manager": false,
-        "fullTime": "true",
-        "hourlyRate": "12",
-        "id": 3
-      },
-      {
-        "name": "Belle",
-        "locationId": "2",
-        "manager": false,
-        "fullTime": false,
-        "hourlyRate": "15",
-        "partTime": "on",
-        "id": 4
-      },
-      {
-        "name": "Cinderella",
-        "locationId": "3",
-        "manager": "true",
-        "fullTime": "true",
-        "hourlyRate": "20",
-        "id": 5
-      }
-    ],
-    "productTypes": [
-      {
-        "id": 1,
-        "type": "Hard Candy"
-      },
-      {
-        "id": 2,
-        "type": "Gum"
-      },
-      {
-        "id": 3,
-        "type": "Chocolate"
-      },
-      {
-        "id": 4,
-        "type": "Sodas"
-      }
-    ],
-    "customers": []
-  }
+  "products": [
+    {
+      "name": "Kisses",
+      "productTypeId": 3,
+      "price": "$.50",
+      "id": 1
+    }
+  ],
+  "locations": [
+    {
+      "name": "Georges Square",
+      "address": "246 long way",
+      "squareFeet": 20,
+      "handicapAccess": true,
+      "id": 1
+    },
+    {
+      "name": "Rembrant Circle",
+      "address": "156 short way",
+      "squareFeet": 15,
+      "handicapAccess": false,
+      "id": 2
+    },
+    {
+      "name": "Park Place",
+      "address": "220 direct way",
+      "squareFeet": 30,
+      "handicapAccess": true,
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sue",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 15
+    },
+    {
+      "name": "bo",
+      "locationId": "2",
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": "20",
+      "id": 2
+    },
+    {
+      "name": "Ariel",
+      "locationId": "1",
+      "manager": false,
+      "fullTime": "true",
+      "hourlyRate": "12",
+      "id": 3
+    },
+    {
+      "name": "Belle",
+      "locationId": "2",
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": "15",
+      "partTime": "on",
+      "id": 4
+    },
+    {
+      "name": "Cinderella",
+      "locationId": "3",
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": "20",
+      "id": 5
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Sodas"
+    }
+  ],
+  "customers": []
+}
