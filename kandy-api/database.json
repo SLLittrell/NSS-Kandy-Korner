@@ -5,8 +5,29 @@
       "productTypeId": 3,
       "price": "$.50",
       "id": 1
+    },
+    {
+      "name": "Butterscotch",
+      "productTypeId": 1,
+      "price": "$1.00",
+      "id": 2
+    },
+    {
+      "name": "Lollipop",
+      "productTypeId": 1,
+      "price": "1.00",
+      "id": 3
+    },
+    {
+      "name": "Gummy Worms",
+      "productTypeId": 5,
+      "price": "$.25",
+      "id": 4
     }
   ],
+  "orders": [
+
+  ]
   "locations": [
     {
       "name": "Georges Square",
@@ -89,6 +110,10 @@
     {
       "id": 4,
       "type": "Sodas"
+    },
+    {
+      "id": 5,
+      "type": "Gummies"
     }
   ],
   "customers": [
