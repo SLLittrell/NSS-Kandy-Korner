@@ -11,8 +11,8 @@ export const EmployeeForm = () => {
     const [employee, setEmployee] = useState({
         name:"",
         locationId: 0,
-        manager: "",
-        fullTime: "",
+        manager: false,
+        fullTime: false,
         hourlyRate: 0
     })
 
@@ -25,11 +25,11 @@ export const EmployeeForm = () => {
     }
 
     const onSaveClick = () => {
-        if (parseInt(employees.locationId) === 0) {
+        if (parseInt(employee.locationId) === 0) {
             window.alert("Please select a location")
         }
         else {
-            addEmployee({employee})
+            addEmployee(employee)
             .then(() => history.push("/employees"))
         }
     }
@@ -47,6 +47,16 @@ export const EmployeeForm = () => {
                   onChange={inputChange}/>
               </div>
           </fieldset>
+          <fieldset className="radio">
+            <input type="radio" id="manager" value={true} onChange={inputChange}></input>
+            <label for="manager">Manager</label>
+          </fieldset>
+          <fieldset className="radio">
+            <input type="radio" id="fullTime" value={true} onChange={inputChange}></input>
+            <label htmlFor="fullTime">Full Time</label>
+            <input type="radio" id="partTime" onChange={inputChange}></input>
+            <label htmlFor="partTime">Part Time</label>
+          </fieldset>
           <fieldset>
               <div className="form-employee">
               <label htmlFor="location">Assign to location: </label>
@@ -58,6 +68,13 @@ export const EmployeeForm = () => {
                           </option>
                       ))}
                   </select> 
+              </div>
+          </fieldset>
+          <fieldset>
+              <div className="form-employee">
+                  <label htmlFor="hourlyRate">Hourly Rate: </label>
+                  <input type="text" id="hourlyRate" required className="emplyeeForm-control" placeholder="Hourly Rate" 
+                  onChange={inputChange}/>
               </div>
           </fieldset>
           <button className="btn btn-primary"
