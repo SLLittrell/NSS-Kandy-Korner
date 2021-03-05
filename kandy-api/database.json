@@ -46,6 +46,31 @@
       "fullTime": "true",
       "hourlyRate": "20",
       "id": 2
+    },
+    {
+      "name": "Ariel",
+      "locationId": "1",
+      "manager": false,
+      "fullTime": "true",
+      "hourlyRate": "12",
+      "id": 3
+    },
+    {
+      "name": "Belle",
+      "locationId": "2",
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": "15",
+      "partTime": "on",
+      "id": 4
+    },
+    {
+      "name": "Cinderella",
+      "locationId": "3",
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": "20",
+      "id": 5
     }
   ],
   "productTypes": [

@@ -48,13 +48,13 @@ export const EmployeeForm = () => {
               </div>
           </fieldset>
           <fieldset className="radio">
-            <input type="radio" id="manager" value={true} onChange={inputChange}></input>
+            <input type="checkbox" id="manager" value={true} onChange={inputChange}></input>
             <label for="manager">Manager</label>
           </fieldset>
           <fieldset className="radio">
-            <input type="radio" id="fullTime" value={true} onChange={inputChange}></input>
+            <input type="checkbox" id="fullTime" value={true} onChange={inputChange}></input>
             <label htmlFor="fullTime">Full Time</label>
-            <input type="radio" id="partTime" onChange={inputChange}></input>
+            <input type="checkbox" id="partTime" onChange={inputChange}></input>
             <label htmlFor="partTime">Part Time</label>
           </fieldset>
           <fieldset>
