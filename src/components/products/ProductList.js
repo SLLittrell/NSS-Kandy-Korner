@@ -1,6 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import { ProductContext} from "./ProductProvider";
 import { ProductCard } from "./Product"
+import "./Product.css"
 
 //create function to use data from ProductContext and render to DOM
 export const ProductList =() => {
