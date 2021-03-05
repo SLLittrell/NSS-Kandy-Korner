@@ -23,6 +23,7 @@ export const ProductList =() => {
                     return <ProductCard key={product.id} productobj={product} productTypeobj={relatedType} />
                 })
             }
+            
         </div>
     </>
 
