@@ -91,5 +91,11 @@
       "type": "Sodas"
     }
   ],
-  "customers": []
+  "customers": [
+    {
+      "email": "stacey.littrell@gmail.com",
+      "name": "Stacey Littrell",
+      "id": 1
+    }
+  ]
 }
